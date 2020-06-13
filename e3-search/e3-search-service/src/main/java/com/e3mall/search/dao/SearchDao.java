@@ -32,6 +32,7 @@ public class SearchDao {
      * @return
      * @throws Exception
      */
+    //已经废弃
     public SearchResult search(QueryBuilder query ) throws Exception {
         EsPage esPage =null;
 //        List<Map<String, Object>> recordList = esPage.getRecordList();

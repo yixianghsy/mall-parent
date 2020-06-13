@@ -6,7 +6,7 @@ druid:
     password: root
 spring:
   datasource:
-    driver-class-name: com.mysql.cj.jdbc.Driver
+    driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://127.0.0.1:3306/e3mall?autoReconnect=true&useUnicode=true&characterEncoding=UTF-8&useSSL=false
     username: root
     password: root

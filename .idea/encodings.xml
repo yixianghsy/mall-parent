@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/demo/es-demo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo/es-demo2/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo/mq-dome/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/demo/qiniu-dome/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/e3-cart-web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/e3-cart/e3-cart-interface/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/e3-cart/e3-cart-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/e3-common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/e3-content/e3-content-interface/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/e3-content/e3-content-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/e3-item-web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/e3-manager-web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/e3-manager/e3-manager-dao/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/e3-manager/e3-manager-interface/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/e3-manager/e3-manager-pojo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/e3-manager/e3-manager-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/e3-order-web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/e3-order/e3-order-interface/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/e3-order/e3-order-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/e3-portal-web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/e3-search-web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/e3-search/e3-search-interface/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/e3-search/e3-search-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/e3-sso-web/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/e3-sso/e3-sso-interface/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/e3-sso/e3-sso-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/provider/provider/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/spring-boot-jsp/src/main/java" charset="UTF-8" />
+  </component>
+</project>

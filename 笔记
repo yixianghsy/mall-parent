@@ -47,9 +47,3 @@ docker-compose -f docker-compose-dev.yml up
   --问题：the default discovery settings are unsuitable for production use; at least one of [discovery.seed_hosts, discovery.seed_providers, cluster.initial_master_nodes] must be configured
   --解决：discovery.seed_hosts: ["127.0.0.1", "[::1]"]
 *
-https://github.com/rangewr/billiardManager.git
-https://github.com/rangewr/gatherInfo.git
-https://github.com/rangewr/vue-framework.git
-https://github.com/rangewr/viewonline.git
-https://github.com/rangewr/MedicalCase.git
-https://github.com/rangewr/vue-wz.git

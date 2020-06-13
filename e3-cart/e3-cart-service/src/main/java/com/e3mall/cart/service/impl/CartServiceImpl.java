@@ -26,8 +26,6 @@ import java.util.List;
 public class CartServiceImpl implements CartService {
     @Autowired
     StringRedisTemplate stringRedisTemplate;
-//    @Autowired
-//    private JedisClient jedisClient;
     @Value("${REDIS_CART_PRE}")
     private String REDIS_CART_PRE;
     @Autowired

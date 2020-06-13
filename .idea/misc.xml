@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/e3-manager/pom.xml" />
+        <option value="$PROJECT_DIR$/e3-manager/e3-manager-dao/pom.xml" />
+        <option value="$PROJECT_DIR$/e3-manager/e3-manager-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/e3-manager/e3-manager-service/pom.xml" />
+        <option value="$PROJECT_DIR$/e3-content/pom.xml" />
+        <option value="$PROJECT_DIR$/e3-search/pom.xml" />
+        <option value="$PROJECT_DIR$/e3-common/pom.xml" />
+        <option value="$PROJECT_DIR$/e3-sso/pom.xml" />
+        <option value="$PROJECT_DIR$/e3-cart/pom.xml" />
+        <option value="$PROJECT_DIR$/e3-cart/e3-cart-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/e3-cart/e3-cart-service/pom.xml" />
+        <option value="$PROJECT_DIR$/e3-sso/e3-sso-service/pom.xml" />
+        <option value="$PROJECT_DIR$/e3-content/e3-content-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/e3-content/e3-content-service/pom.xml" />
+        <option value="$PROJECT_DIR$/e3-search/e3-search-interface/pom.xml" />
+        <option value="$PROJECT_DIR$/e3-order/e3-order-service/pom.xml" />
+        <option value="$PROJECT_DIR$/e3-search-web/pom.xml" />
+        <option value="$PROJECT_DIR$/e3-manager-web/pom.xml" />
+        <option value="$PROJECT_DIR$/e3-sso-web/pom.xml" />
+        <option value="$PROJECT_DIR$/e3-item-web/pom.xml" />
+        <option value="$PROJECT_DIR$/e3-cart-web/pom.xml" />
+        <option value="$PROJECT_DIR$/e3-order-web/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbotest1/consumer/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbotest1/provider/pom.xml" />
+        <option value="$PROJECT_DIR$/dubbotest1/service/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-jsp/pom.xml" />
+        <option value="$PROJECT_DIR$/demo/pom.xml" />
+        <option value="$PROJECT_DIR$/demo/mq-dome/pom.xml" />
+        <option value="$PROJECT_DIR$/demo/qiniu-dome/pom.xml" />
+        <option value="$PROJECT_DIR$/demo/es-demo/pom.xml" />
+        <option value="$PROJECT_DIR$/demo/es-demo2/pom.xml" />
+        <option value="$PROJECT_DIR$/e3-search/e3-search-service/pom.xml" />
+      </list>
+    </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/e3-content/pom.xml" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>

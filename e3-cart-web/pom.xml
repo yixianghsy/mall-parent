@@ -19,6 +19,13 @@
 	</properties>
 
 	<dependencies>
+		<!-- 内部接口 -->
+		<dependency>
+			<groupId>com.e3mall</groupId>
+			<artifactId>e3-content-interface</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+			<scope>compile</scope>
+		</dependency>
 		<dependency>
 			<groupId>com.e3mall</groupId>
 			<artifactId>e3-sso-interface</artifactId>
@@ -34,7 +41,11 @@
 			<artifactId>e3-manager-interface</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
-		<!-- Spring Boot web启动器 -->
+		<!-- commons-lang3 -->
+		<dependency>
+			<groupId>org.apache.commons</groupId>
+			<artifactId>commons-lang3</artifactId>
+		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
@@ -43,7 +54,6 @@
 		<dependency>
 			<groupId>org.apache.dubbo</groupId>
 			<artifactId>dubbo-spring-boot-starter</artifactId>
-			<version>2.7.3</version>
 			<exclusions>
 				<exclusion>
 					<groupId>org.slf4j</groupId>
@@ -55,25 +65,21 @@
 		<dependency>
 			<groupId>org.apache.dubbo</groupId>
 			<artifactId>dubbo</artifactId>
-			<version>2.7.3</version>
 		</dependency>
 
 		<dependency>
 			<groupId>org.apache.curator</groupId>
 			<artifactId>curator-framework</artifactId>
-			<version>4.0.1</version>
 		</dependency>
 
 		<dependency>
 			<groupId>org.apache.curator</groupId>
 			<artifactId>curator-recipes</artifactId>
-			<version>2.8.0</version>
 		</dependency>
 
 		<dependency>
 			<groupId>org.apache.zookeeper</groupId>
 			<artifactId>zookeeper</artifactId>
-			<version>3.4.13</version>
 			<type>pom</type>
 			<exclusions>
 				<exclusion>
@@ -86,7 +92,6 @@
 		<dependency>
 			<groupId>com.101tec</groupId>
 			<artifactId>zkclient</artifactId>
-			<version>0.10</version>
 		</dependency>
 		<!-- jsp -->
 		<dependency>
@@ -97,20 +102,6 @@
 			<groupId>org.apache.tomcat.embed</groupId>
 			<artifactId>tomcat-embed-jasper</artifactId>
 		</dependency>
-		<dependency>
-			<groupId>com.e3mall</groupId>
-			<artifactId>e3-content-interface</artifactId>
-			<version>0.0.1-SNAPSHOT</version>
-			<scope>compile</scope>
-		</dependency>
-		<!-- https://mvnrepository.com/artifact/io.swagger/swagger-annotations -->
-		<dependency>
-			<groupId>io.swagger</groupId>
-			<artifactId>swagger-annotations</artifactId>
-			<version>1.5.0</version>
-		</dependency>
-
-
 	</dependencies>
 
 	<build>
