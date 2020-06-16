@@ -61,6 +61,7 @@ public class PictureController {
             String fileName = file.getOriginalFilename();
             resultUtil = uploadService.uploadFileQiniu(file.getBytes(),fileName);
             String url = resultUtil.getData().getFileUrl();
+            System.out.println(url);
             //封装到map中返回
             Map result = new HashMap<>();
             result.put("error", 0);

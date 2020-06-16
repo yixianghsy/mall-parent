@@ -23,8 +23,8 @@ public class QiniuCloudUtil {
 
     //要上传的空间bucket
     private  static final  String BUCKET = "hsymall";
-    //http://q9hoxeklo.bkt.clouddn.com
-    private  static final  String  DOMAIN = "http://q9hoxeklo.bkt.clouddn.com/";
+
+    private  static final  String  DOMAIN = "http://qinniu.sylianxizhuanyong.cn";
 
     /**
      * 获取其牛云Token
@@ -43,7 +43,7 @@ public class QiniuCloudUtil {
         StringBuffer fileurl = new StringBuffer(DOMAIN);
         Configuration cfg = new Configuration(Zone.zone0());
         UploadManager uploadManager = new UploadManager(cfg);
-        String LocalFilePath = "/home/hsy/图片/wheat-850328_960_720.webp";
+        String LocalFilePath = "/home/hsy/图片/test11111.jpg";
         String key = null;
         try {
             Response response = uploadManager.put(LocalFilePath, key, getupToken());
@@ -104,7 +104,7 @@ public class QiniuCloudUtil {
                 return fileUrl.toString();
     }
     public static void main(String[] args) {
-
+        System.out.println(uploadFile());
 
     }
 }

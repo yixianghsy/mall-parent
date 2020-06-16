@@ -26,7 +26,7 @@ public class QiniuCloudUtil {
     //要上传的空间bucket
     private  static final  String BUCKET = "hsymall";
     //http://q9hoxeklo.bkt.clouddn.com
-    private  static final  String  DOMAIN = "http://q9hoxeklo.bkt.clouddn.com/";
+    private  static final  String  DOMAIN = "http://qinniu.sylianxizhuanyong.cn/";
 
     /**
      * 获取其牛云Token
