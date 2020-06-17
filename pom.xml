@@ -43,7 +43,7 @@
 		<version.dubbo>2.7.3</version.dubbo>
 		<version.curator>2.8.0</version.curator>
 		<version.curator-recipe>2.8.0</version.curator-recipe>
-		<version.zookeeper>3.4.13</version.zookeeper>
+		<version.zookeeper>3.4.14</version.zookeeper>
 		<version.zkclient>0.10</version.zkclient>
 		<version.redis>2.2.7.RELEASE</version.redis>
 		<version.swagger>1.5.0</version.swagger>
