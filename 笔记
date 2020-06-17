@@ -46,4 +46,4 @@ docker-compose -f docker-compose-dev.yml up
 * docker 部署es7.2.0
   --问题：the default discovery settings are unsuitable for production use; at least one of [discovery.seed_hosts, discovery.seed_providers, cluster.initial_master_nodes] must be configured
   --解决：discovery.seed_hosts: ["127.0.0.1", "[::1]"]
-*
+*关于*。html请求，参考spring mvc web.xml配置只需转换成spring boot的即可,参考https://blog.csdn.net/leave417/article/details/90758343

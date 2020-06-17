@@ -20,10 +20,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
  */
 @Controller
 public class ItemController {
-    @Reference
+    @Reference(retries = 3,timeout = 20000)
     private ItemService itemService;
     @RequestMapping("/item/{itemId}")
         public String showItemInfo(@PathVariable Long itemId, Model model) {
+        System.out.println("进来了");
         //调用服务取商品基本信息
         TbItem tbItem = itemService.getItemById(itemId);
 
