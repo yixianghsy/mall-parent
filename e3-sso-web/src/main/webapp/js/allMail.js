@@ -11,7 +11,7 @@ var ctDown = function (id) {
 		setTimeout("ctDown('"+id+"');", 1000);
 	} else{
 		$("#"+id).attr("value","点击获取验证码").attr("disabled", false).removeClass("gvCodeNo").addClass("gvCode").next().html('');
-		timeout = 120;
+		timeout = 120;-
 	}
 }
 var timeoutajax = 120;

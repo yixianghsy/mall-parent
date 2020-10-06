@@ -1,5 +1,6 @@
 package com.e3mall.content.service.impl;
-
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import com.e3mall.content.service.ContentService;
 import com.e3mall.mapper.TbContentMapper;
 import com.e3mall.mapper.pojo.TbContent;
@@ -23,6 +24,7 @@ import java.util.List;
 @Service
 public class ContentServiceImpl  implements ContentService {
 
+    private Logger logger = LoggerFactory.getLogger(this.getClass());
     @Autowired
     private TbContentMapper contentMapper;
 
@@ -34,6 +36,10 @@ public class ContentServiceImpl  implements ContentService {
 
     @Override
     public E3Result addContent(TbContent tbContent) {
+        logger.debug("this is debug level");
+        logger.info("this is info level ");
+        logger.warn("this is warn level ");
+        logger.error("this is error level");
         //将内容数据插入到内容表
         tbContent.setCreated(new Date());
         tbContent.setUpdated(new Date());

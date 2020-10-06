@@ -1,35 +1,23 @@
 package com.e3mall.search.message;
 
 import com.e3mall.pojo.SearchItem;
-//import com.e3mall.search.Utit.ElasticsearchUtil;
 import com.e3mall.search.Utit.EsUtil;
 import com.e3mall.search.config.DefaultConsumerConfig;
 import com.e3mall.search.mapper.ItemMapper;
 import org.apache.rocketmq.client.consumer.listener.ConsumeConcurrentlyStatus;
 import org.apache.rocketmq.client.exception.MQClientException;
 import org.apache.rocketmq.common.message.MessageExt;
-import org.elasticsearch.action.index.IndexRequest;
-import org.elasticsearch.action.index.IndexResponse;
-import org.elasticsearch.client.RequestOptions;
-import org.elasticsearch.client.RestHighLevelClient;
 import org.elasticsearch.common.xcontent.XContentBuilder;
 import org.elasticsearch.common.xcontent.XContentFactory;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.cglib.beans.BeanMap;
 import org.springframework.context.ApplicationListener;
 import org.springframework.context.event.ContextRefreshedEvent;
 import org.springframework.stereotype.Service;
-
-import javax.annotation.Resource;
 import java.io.IOException;
 import java.io.UnsupportedEncodingException;
-import java.nio.ByteBuffer;
-import java.util.HashMap;
 import java.util.List;
-import java.util.Map;
-
 
 /**
  * 监听商品添加消息，接收消息后，将对应的商品信息同步到索引库

@@ -8,26 +8,29 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="e3-search-interface" />
+        <module name="user-service" />
         <module name="e3-manager-pojo" />
         <module name="e3-content-service" />
         <module name="e3-order-service" />
         <module name="es-demo" />
+        <module name="user-web" />
         <module name="e3-manager-web" />
         <module name="consumer" />
         <module name="e3-common" />
         <module name="e3-content-interface" />
         <module name="spring-boot-jsp" />
         <module name="e3-order-web" />
+        <module name="user-api" />
         <module name="provider" />
         <module name="es-demo2" />
         <module name="e3-sso-service" />
-        <module name="demo" />
         <module name="e3-portal-web" />
         <module name="e3-search-web" />
         <module name="e3-item-web" />
+        <module name="e3-sso-web" />
         <module name="e3-manager-service" />
         <module name="e3-cart-service" />
-        <module name="e3-cart-web" />
+        <module name="dubbo-oauth2" />
         <module name="e3-manager-dao" />
         <module name="mq-dome" />
         <module name="e3-search-service" />
@@ -37,13 +40,14 @@
         <module name="e3-order-interface" />
         <module name="e3-manager-interface" />
         <module name="e3-sso-interface" />
-        <module name="e3-sso-web" />
+        <module name="e3-cart-web" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="consumer" target="1.8" />
       <module name="demo" target="1.8" />
       <module name="dome" target="1.8" />
+      <module name="dubbo-oauth2" target="1.8" />
       <module name="e3-cart" target="1.8" />
       <module name="e3-cart-interface" target="1.8" />
       <module name="e3-cart-service" target="1.8" />
@@ -82,13 +86,17 @@
       <module name="rocketmq-producer" target="1.8" />
       <module name="service" target="1.8" />
       <module name="spring-boot-jsp" target="1.8" />
+      <module name="user-api" target="1.8" />
+      <module name="user-service" target="1.8" />
+      <module name="user-web" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="consumer" options="-parameters" />
-      <module name="demo" options="-parameters" />
+      <module name="demo" options="" />
       <module name="dome" options="-parameters" />
+      <module name="dubbo-oauth2" options="-parameters" />
       <module name="e3-cart" options="-parameters" />
       <module name="e3-cart-interface" options="-parameters" />
       <module name="e3-cart-service" options="-parameters" />
@@ -127,6 +135,9 @@
       <module name="rocketmq-producer" options="-parameters" />
       <module name="service" options="-parameters" />
       <module name="spring-boot-jsp" options="-parameters" />
+      <module name="user-api" options="-parameters" />
+      <module name="user-service" options="-parameters" />
+      <module name="user-web" options="-parameters" />
     </option>
   </component>
 </project>

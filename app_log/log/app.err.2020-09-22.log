@@ -1,0 +1,22 @@
+2020-09-22 14:51:24.153 ERROR[main-EventThread]org.apache.curator.framework.imps.CuratorFrameworkImpl.logError:546 -Background exception was not retry-able or retry gave up
+java.lang.IllegalStateException: instance must be started before calling this method
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:176)
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.checkExists(CuratorFrameworkImpl.java:355)
+	at org.apache.curator.framework.recipes.cache.TreeCache$TreeNode.wasDeleted(TreeCache.java:295)
+	at org.apache.curator.framework.recipes.cache.TreeCache$TreeNode.processResult(TreeCache.java:351)
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.sendToBackgroundCallback(CuratorFrameworkImpl.java:728)
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.processBackgroundOperation(CuratorFrameworkImpl.java:505)
+	at org.apache.curator.framework.imps.ExistsBuilderImpl$1.processResult(ExistsBuilderImpl.java:123)
+	at org.apache.zookeeper.ClientCnxn$EventThread.processEvent(ClientCnxn.java:555)
+	at org.apache.zookeeper.ClientCnxn$EventThread.run(ClientCnxn.java:498)
+2020-09-22 14:51:24.179 ERROR[main-EventThread]org.apache.curator.framework.imps.CuratorFrameworkImpl.logError:546 -Background exception was not retry-able or retry gave up
+java.lang.IllegalStateException: instance must be started before calling this method
+	at com.google.common.base.Preconditions.checkState(Preconditions.java:176)
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.checkExists(CuratorFrameworkImpl.java:355)
+	at org.apache.curator.framework.recipes.cache.TreeCache$TreeNode.wasDeleted(TreeCache.java:295)
+	at org.apache.curator.framework.recipes.cache.TreeCache$TreeNode.processResult(TreeCache.java:351)
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.sendToBackgroundCallback(CuratorFrameworkImpl.java:728)
+	at org.apache.curator.framework.imps.CuratorFrameworkImpl.processBackgroundOperation(CuratorFrameworkImpl.java:505)
+	at org.apache.curator.framework.imps.ExistsBuilderImpl$1.processResult(ExistsBuilderImpl.java:123)
+	at org.apache.zookeeper.ClientCnxn$EventThread.processEvent(ClientCnxn.java:555)
+	at org.apache.zookeeper.ClientCnxn$EventThread.run(ClientCnxn.java:498)

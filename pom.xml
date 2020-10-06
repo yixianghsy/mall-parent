@@ -29,6 +29,8 @@
 		<module>e3-cart-web</module>
 		<module>e3-order</module>
 		<module>e3-order-web</module>
+<!--        <module>dubbo-oauth2</module>-->
+<!--		<module>demo/dubbo-oauth2</module>-->
 	</modules>
 	<properties>
 		<!--这里台那些版本号-->
@@ -58,6 +60,7 @@
 		<version.jstl>1.2</version.jstl>
 		<version.tomcat>9.0.34</version.tomcat>
 		<version.fastjson>1.2.62</version.fastjson>
+		<version.freemarker>2.2.7.RELEASE</version.freemarker>
 	</properties>
 	<!--这个只是控制版本，不开放给子工程-->
 	<dependencyManagement>
@@ -235,6 +238,12 @@
 			<groupId>com.alibaba</groupId>
 			<artifactId>fastjson</artifactId>
 			<version>${version.fastjson}</version>
+		</dependency>
+		<!-- freemarker 依赖 -->
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-freemarker</artifactId>
+			<version>${version.freemarker}</version>
 		</dependency>
 	</dependencies>
 	</dependencyManagement>

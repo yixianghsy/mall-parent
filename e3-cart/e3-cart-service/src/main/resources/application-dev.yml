@@ -40,7 +40,7 @@ dubbo:
     name: dubbo
     port: 20880
   registry:
-    address: zookeeper://39.104.87.118:2181
+    address: zookeeper://192.168.10.101:2181
     protocol: zookeeper
   scan:
     base-packages: com.e3mall.cart.service
@@ -53,6 +53,6 @@ ITEM_CACHE_EXPIRE: 600000
 rocketmq:
   producer:
     groupName: e3-manager
-    namesrvAddr: 127.0.0.1:9876
+    namesrvAddr: 192.168.10.101:9876
     default: true
 REDIS_CART_PRE: CART

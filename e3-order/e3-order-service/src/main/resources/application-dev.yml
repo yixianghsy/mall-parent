@@ -37,7 +37,7 @@ dubbo:
     name: dubbo
     port: 20883
   registry:
-    address: zookeeper://39.104.87.118:2181
+    address: zookeeper://192.168.10.101:2181
     protocol: zookeeper
   scan:
     base-packages: com.e3mall.order.service
@@ -50,7 +50,7 @@ ITEM_CACHE_EXPIRE: 600000
 rocketmq:
   producer:
     groupName: e3-order
-    namesrvAddr: 127.0.0.1:9876
+    namesrvAddr: 192.168.10.101:9876
     default: true
 ORDER_ID_GEN_KEY: ORDER_ID_GEN
   #\u8ba2\u5355\u53f7\u521d\u59cb\u503c

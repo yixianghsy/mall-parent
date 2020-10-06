@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/dubbotest1/consumer/consumer.iml" filepath="$PROJECT_DIR$/dubbotest1/consumer/consumer.iml" />
       <module fileurl="file://$PROJECT_DIR$/demo/demo.iml" filepath="$PROJECT_DIR$/demo/demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo/dubbo-oauth2/dubbo-oauth2.iml" filepath="$PROJECT_DIR$/demo/dubbo-oauth2/dubbo-oauth2.iml" />
       <module fileurl="file://$PROJECT_DIR$/e3-cart/e3-cart.iml" filepath="$PROJECT_DIR$/e3-cart/e3-cart.iml" />
       <module fileurl="file://$PROJECT_DIR$/e3-cart/e3-cart-interface/e3-cart-interface.iml" filepath="$PROJECT_DIR$/e3-cart/e3-cart-interface/e3-cart-interface.iml" />
       <module fileurl="file://$PROJECT_DIR$/e3-cart/e3-cart-service/e3-cart-service.iml" filepath="$PROJECT_DIR$/e3-cart/e3-cart-service/e3-cart-service.iml" />
@@ -40,6 +41,9 @@
       <module fileurl="file://$PROJECT_DIR$/demo/qiniu-dome/qiniu-dome.iml" filepath="$PROJECT_DIR$/demo/qiniu-dome/qiniu-dome.iml" />
       <module fileurl="file://$PROJECT_DIR$/dubbotest1/service/service.iml" filepath="$PROJECT_DIR$/dubbotest1/service/service.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-jsp/spring-boot-jsp.iml" filepath="$PROJECT_DIR$/spring-boot-jsp/spring-boot-jsp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo/dubbo-oauth2/user-api/user-api.iml" filepath="$PROJECT_DIR$/demo/dubbo-oauth2/user-api/user-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo/dubbo-oauth2/user-service/user-service.iml" filepath="$PROJECT_DIR$/demo/dubbo-oauth2/user-service/user-service.iml" />
+      <module fileurl="file://$PROJECT_DIR$/demo/dubbo-oauth2/user-web/user-web.iml" filepath="$PROJECT_DIR$/demo/dubbo-oauth2/user-web/user-web.iml" />
     </modules>
   </component>
 </project>
