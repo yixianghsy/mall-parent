@@ -61,6 +61,11 @@
 		<version.tomcat>9.0.34</version.tomcat>
 		<version.fastjson>1.2.62</version.fastjson>
 		<version.freemarker>2.2.7.RELEASE</version.freemarker>
+		<version.swagger2>2.9.2</version.swagger2>
+		<version.security.oauth2>2.3.5.RELEASE</version.security.oauth2>
+		<security.oauth2.autoconfigure>2.1.2.RELEASE</security.oauth2.autoconfigure>
+		<security.jwt>1.1.0.RELEASE</security.jwt>
+		<version.security>2.1.14.RELEASE</version.security>
 	</properties>
 	<!--这个只是控制版本，不开放给子工程-->
 	<dependencyManagement>
@@ -244,6 +249,41 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-freemarker</artifactId>
 			<version>${version.freemarker}</version>
+		</dependency>
+		<!-- swagger ui  -->
+		<dependency>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-swagger2</artifactId>
+			<version>${version.swagger2}</version>
+		</dependency>
+		<dependency>
+			<groupId>io.springfox</groupId>
+			<artifactId>springfox-swagger-ui</artifactId>
+			<version>${version.swagger2}</version>
+		</dependency>
+		<dependency>
+			<groupId>org.springframework.boot</groupId>
+			<artifactId>spring-boot-starter-security</artifactId>
+			<version>${version.security}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.security.oauth</groupId>
+			<artifactId>spring-security-oauth2</artifactId>
+			<version>${version.security.oauth2}</version>
+		</dependency>
+		<!-- 用于资源服务器的自动配置 -->
+		<dependency>
+			<groupId>org.springframework.security.oauth.boot</groupId>
+			<artifactId>spring-security-oauth2-autoconfigure</artifactId>
+			<version>${security.oauth2.autoconfigure}</version>
+			<scope>compile</scope>
+		</dependency>
+
+		<dependency>
+			<groupId>org.springframework.security</groupId>
+			<artifactId>spring-security-jwt</artifactId>
+			<version>${security.jwt}</version>
 		</dependency>
 	</dependencies>
 	</dependencyManagement>
