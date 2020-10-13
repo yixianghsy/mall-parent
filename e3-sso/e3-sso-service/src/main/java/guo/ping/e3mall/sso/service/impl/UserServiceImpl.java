@@ -102,7 +102,7 @@ public class UserServiceImpl implements UserService {
         return E3Result.ok(token);
 
     }
-
+    //REDIS_SESSION:4398b861-7fd3-452b-be6d-98ebd3e7e0a4
     @Override
     public E3Result getUserByToken(String token) {
         TbUser tbUser = (TbUser) redisTemplate.opsForValue().get(REDIS_SESSION_KEY + ":" + token);

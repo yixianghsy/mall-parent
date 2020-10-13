@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../e3-cart/pom.xml" />
+        <option value="$PROJECT_DIR$/../e3-cart-web/pom.xml" />
+        <option value="$PROJECT_DIR$/../e3-common/pom.xml" />
+        <option value="$PROJECT_DIR$/../e3-content/pom.xml" />
+        <option value="$PROJECT_DIR$/../e3-dubbo-admin/pom.xml" />
+        <option value="$PROJECT_DIR$/../e3-item-web/pom.xml" />
+        <option value="$PROJECT_DIR$/../e3-manager/pom.xml" />
+        <option value="$PROJECT_DIR$/../e3-order/pom.xml" />
+        <option value="$PROJECT_DIR$/../e3-order-web/pom.xml" />
+        <option value="$PROJECT_DIR$/../e3-portal-web/pom.xml" />
+        <option value="$PROJECT_DIR$/../e3-search/pom.xml" />
+        <option value="$PROJECT_DIR$/../e3-search-web/pom.xml" />
+        <option value="$PROJECT_DIR$/../e3-sso/pom.xml" />
+        <option value="$PROJECT_DIR$/../e3-sso-web/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="false" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
+</project>

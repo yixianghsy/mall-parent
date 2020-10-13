@@ -12,8 +12,8 @@ public class FastDFSTest {
 
     @Test
     public void testFastDfsClient() throws Exception {
-        FastDFSClient fastDFSClient = new FastDFSClient("F:\\java\\e3-springboot\\e3-manager\\e3-manager-web\\src\\main\\resources\\conf\\fastdfs-client.conf");
-        String file = fastDFSClient.uploadFile("I:\\旧电脑文件\\Camera Roll\\十分妹子.jpg");
+        FastDFSClient fastDFSClient = new FastDFSClient("/home/hsy/IdeaProjects/e3-springboot/e3-manager/e3-manager-web/src/main/resources/conf/fastdfs-client.conf");
+        String file = fastDFSClient.uploadFile("/home/hsy/图片/123.png");
         System.out.println(file);
     }
 

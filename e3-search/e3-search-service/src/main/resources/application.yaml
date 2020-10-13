@@ -5,17 +5,20 @@ mybatis:
 spring:
   datasource:
     username: root
-    password: 1234
-    url: jdbc:mysql://192.168.223.128:3306/e3mall
+    password: root
+    url: jdbc:mysql://192.168.10.101:3306/e3mall
     driver-class-name: com.mysql.jdbc.Driver
     type: com.alibaba.druid.pool.DruidDataSource
   data:
     solr:
-      host: http://192.168.223.128:8983/solr/collection1
+      host: http://127.0.0.1:8983/solr/collection1
+#      repositories:
+#        enabled: true
+#      zk-host: 127.0.0.1:2182,127.0.0.1:2183,127.0.0.1:2184
   activemq:
     user: admin
     password: admin
-    broker-url: tcp://192.168.223.128:61616
+    broker-url: tcp://127.0.0.1:61616
     pool:
       enabled: true
       max-connections: 50
@@ -26,7 +29,7 @@ dubbo:
   application:
     name: e3-search
   registry:
-    address: zookeeper://192.168.223.128:2181
+    address: zookeeper://127.0.0.1:2181
   scan:
     basePackages: guo.ping.e3mall.search.service
   protocol:

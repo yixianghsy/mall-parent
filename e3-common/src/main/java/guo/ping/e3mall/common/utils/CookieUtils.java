@@ -150,7 +150,7 @@ public final class CookieUtils {
             if (null != request) {// 设置域名的cookie
             	String domainName = getDomainName(request);
             	System.out.println(domainName);
-                if (!"localhost".equals(domainName)) {
+                if (!"mall.com".equals(domainName)) {
                 	cookie.setDomain(domainName);
                 }
             }
@@ -180,7 +180,7 @@ public final class CookieUtils {
             if (null != request) {// 设置域名的cookie
             	String domainName = getDomainName(request);
             	System.out.println(domainName);
-                if (!"localhost".equals(domainName)) {
+                if (!"mall.com".equals(domainName)) {
                 	cookie.setDomain(domainName);
                 }
             }
