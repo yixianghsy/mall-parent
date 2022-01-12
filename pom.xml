@@ -40,7 +40,7 @@
 		<version.okhttp>3.3.1</version.okhttp>
 		<version.gson>2.6.2</version.gson>
 		<version.druid>1.1.0</version.druid>
-		<version.dubbo>2.7.3</version.dubbo>
+		<version.dubbo>2.7.15</version.dubbo>
 		<version.curator>2.8.0</version.curator>
 		<version.curator-recipe>2.8.0</version.curator-recipe>
 		<version.zookeeper>3.4.13</version.zookeeper>
