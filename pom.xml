@@ -38,7 +38,7 @@
 		<version.qiniu>[7.2.0, 7.2.99]</version.qiniu>
 		<version.fastdfs>1.25</version.fastdfs>
 		<version.okhttp>3.3.1</version.okhttp>
-		<version.gson>2.6.2</version.gson>
+		<version.gson>2.8.9</version.gson>
 		<version.druid>1.1.0</version.druid>
 		<version.dubbo>2.7.3</version.dubbo>
 		<version.curator>2.8.0</version.curator>
