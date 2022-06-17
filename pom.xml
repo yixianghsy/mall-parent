@@ -57,7 +57,7 @@
 		<version.web>2.2.7.RELEASE</version.web>
 		<version.jstl>1.2</version.jstl>
 		<version.tomcat>9.0.34</version.tomcat>
-		<version.fastjson>1.2.62</version.fastjson>
+		<version.fastjson>1.2.83</version.fastjson>
 		<version.freemarker>2.2.7.RELEASE</version.freemarker>
 	</properties>
 	<!--这个只是控制版本，不开放给子工程-->
