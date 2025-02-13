@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <!--定义SpringBoot依赖父工程-->
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <!--        <version>2.0.4.RELEASE</version>-->
+        <version>2.7.5</version>
+        <relativePath/> <!-- lookup parent from repository -->
+    </parent>
+    <groupId>com.mall</groupId>
+    <artifactId>mall-parent</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>mall-parent</name>
+    <description>mall-parent</description>
+    <packaging>pom</packaging>
+    <modules>
+<!--        <module>mall-item</module>-->
+<!--        <module>mall-content</module>-->
+<!--        <module>mall-common</module>-->
+<!--        <module>mall-manager</module>-->
+<!--        <module>mall-search</module>-->
+<!--        <module>mall-sso</module>-->
+<!--        <module>mall-cart</module>-->
+<!--        <module>mall-order</module>-->
+<!--        <module>mall-portal</module>-->
+<!--        <module>mall-security</module>-->
+<!--        <module>mall-marketing</module>-->
+    </modules>
+    <properties>
+        <java.version>1.8</java.version>
+    </properties>
+
+    <dependencies>
+
+    </dependencies>
+    <dependencyManagement>
+
+    </dependencyManagement>
+</project>
