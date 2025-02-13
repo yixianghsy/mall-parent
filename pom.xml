@@ -23,7 +23,7 @@
 <!--        <module>mall-manager</module>-->
 <!--        <module>mall-search</module>-->
 <!--        <module>mall-sso</module>-->
-<!--        <module>mall-cart</module>-->
+        <module>mall-cart</module>
 <!--        <module>mall-order</module>-->
 <!--        <module>mall-portal</module>-->
 <!--        <module>mall-security</module>-->
@@ -34,7 +34,17 @@
     </properties>
 
     <dependencies>
-
+        <!-- web组件 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+            <version>2.2.1.RELEASE</version>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
     </dependencies>
     <dependencyManagement>
 
