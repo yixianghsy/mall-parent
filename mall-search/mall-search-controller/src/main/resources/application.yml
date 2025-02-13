@@ -1,0 +1,9 @@
+server:
+  port: 8030
+app:
+  name: 搜索页面
+  version: 1.0
+spring:
+  application:
+    name: seach-controller
+

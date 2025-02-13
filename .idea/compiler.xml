@@ -6,7 +6,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="mall-sso-interface" />
         <module name="mall-content-interface" />
+        <module name="mall-search-interface" />
         <module name="mall-manager-controller" />
         <module name="mall-manager-mapper" />
         <module name="mall-order-controller" />
@@ -16,9 +18,13 @@
         <module name="mall-cart-controller" />
         <module name="mall-cart-service" />
         <module name="mall-manager-pojo" />
+        <module name="mall-search-controller" />
         <module name="mall-marketing-interface" />
+        <module name="mall-search-mapper" />
         <module name="mall-item-interface" />
         <module name="mall-content-servic" />
+        <module name="mall-sso-mapper" />
+        <module name="mall-sso-pojo" />
         <module name="mall-content-mapper" />
         <module name="mall-item-service" />
         <module name="mall-order-mapper" />
@@ -27,9 +33,14 @@
         <module name="mall-manager-service" />
         <module name="mall-marketing-pojo" />
         <module name="mall-order-interface" />
+        <module name="mall-sso-service" />
+        <module name="mall-security" />
         <module name="mall-marketing-service" />
+        <module name="mall-search-service" />
         <module name="mall-cart-interface" />
+        <module name="mall-search-pojo" />
         <module name="mall-marketing-mapper" />
+        <module name="mall-sso-controller" />
         <module name="mall-manager-interface" />
         <module name="mall-portal" />
       </profile>
@@ -63,6 +74,17 @@
       <module name="mall-order-pojo" options="-parameters" />
       <module name="mall-order-service" options="-parameters" />
       <module name="mall-portal" options="-parameters" />
+      <module name="mall-search-controller" options="-parameters" />
+      <module name="mall-search-interface" options="-parameters" />
+      <module name="mall-search-mapper" options="-parameters" />
+      <module name="mall-search-pojo" options="-parameters" />
+      <module name="mall-search-service" options="-parameters" />
+      <module name="mall-security" options="-parameters" />
+      <module name="mall-sso-controller" options="-parameters" />
+      <module name="mall-sso-interface" options="-parameters" />
+      <module name="mall-sso-mapper" options="-parameters" />
+      <module name="mall-sso-pojo" options="-parameters" />
+      <module name="mall-sso-service" options="-parameters" />
     </option>
   </component>
 </project>

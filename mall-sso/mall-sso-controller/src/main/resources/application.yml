@@ -1,0 +1,6 @@
+app:
+  name: 登录页面
+  version: 1.0
+#tomcat conf
+server:
+  port: 8033
