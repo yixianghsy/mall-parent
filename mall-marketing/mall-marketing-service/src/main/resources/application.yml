@@ -1,0 +1,5 @@
+server:
+  port: 8026
+spring:
+  application:
+    name: marketing-service

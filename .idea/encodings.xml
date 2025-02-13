@@ -19,6 +19,38 @@
     <file url="file://$PROJECT_DIR$/mall-content/mall-content-servic/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mall-content/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/mall-content/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mall-item/mall-item-controller/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mall-item/mall-item-controller/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mall-item/mall-item-interface/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mall-item/mall-item-interface/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mall-item/mall-item-mapper/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mall-item/mall-item-mapper/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mall-item/mall-item-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mall-item/mall-item-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mall-item/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mall-item/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mall-manager/mall-manager-controller/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mall-manager/mall-manager-controller/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mall-manager/mall-manager-interface/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mall-manager/mall-manager-interface/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mall-manager/mall-manager-mapper/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mall-manager/mall-manager-mapper/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mall-manager/mall-manager-pojo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mall-manager/mall-manager-pojo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mall-manager/mall-manager-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mall-manager/mall-manager-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mall-manager/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mall-manager/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mall-marketing/mall-marketing-interface/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mall-marketing/mall-marketing-interface/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mall-marketing/mall-marketing-mapper/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mall-marketing/mall-marketing-mapper/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mall-marketing/mall-marketing-pojo/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mall-marketing/mall-marketing-pojo/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mall-marketing/mall-marketing-service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mall-marketing/mall-marketing-service/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mall-marketing/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mall-marketing/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
   </component>

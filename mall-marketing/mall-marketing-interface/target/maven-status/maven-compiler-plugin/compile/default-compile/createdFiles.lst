@@ -1,0 +1,12 @@
+com\mall\marketing\service\SmsFlashPromotionProductRelationService.class
+com\mall\marketing\service\SmsFlashPromotionSessionService.class
+com\mall\marketing\service\SmsCouponService.class
+com\mall\marketing\service\SmsFlashPromotionService.class
+com\mall\marketing\service\SmsCouponHistoryService.class
+com\mall\marketing\service\SmsHomeCategoryService.class
+com\mall\marketing\service\SmsHomeNewProductService.class
+com\mall\marketing\service\SmsHomeRecommendProductService.class
+com\mall\marketing\service\UploadService.class
+com\mall\marketing\service\SmsHomeBrandService.class
+com\mall\marketing\service\SmsHomeAdvertiseService.class
+com\mall\marketing\service\SmsHomeRecommendSubjectService.class

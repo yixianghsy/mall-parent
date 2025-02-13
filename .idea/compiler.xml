@@ -8,11 +8,24 @@
         <outputRelativeToContentRoot value="true" />
         <module name="mall-content-mapper" />
         <module name="mall-content-interface" />
+        <module name="mall-item-service" />
         <module name="mall-content-pojo" />
-        <module name="mall-cart-interface" />
-        <module name="mall-content-servic" />
+        <module name="mall-manager-controller" />
+        <module name="mall-manager-mapper" />
+        <module name="mall-item-controller" />
+        <module name="mall-item-mapper" />
         <module name="mall-cart-controller" />
         <module name="mall-cart-service" />
+        <module name="mall-manager-pojo" />
+        <module name="mall-manager-service" />
+        <module name="mall-marketing-pojo" />
+        <module name="mall-marketing-service" />
+        <module name="mall-marketing-interface" />
+        <module name="mall-cart-interface" />
+        <module name="mall-item-interface" />
+        <module name="mall-content-servic" />
+        <module name="mall-marketing-mapper" />
+        <module name="mall-manager-interface" />
       </profile>
     </annotationProcessing>
   </component>
@@ -25,6 +38,19 @@
       <module name="mall-content-mapper" options="-parameters" />
       <module name="mall-content-pojo" options="-parameters" />
       <module name="mall-content-servic" options="-parameters" />
+      <module name="mall-item-controller" options="-parameters" />
+      <module name="mall-item-interface" options="-parameters" />
+      <module name="mall-item-mapper" options="-parameters" />
+      <module name="mall-item-service" options="-parameters" />
+      <module name="mall-manager-controller" options="-parameters" />
+      <module name="mall-manager-interface" options="-parameters" />
+      <module name="mall-manager-mapper" options="-parameters" />
+      <module name="mall-manager-pojo" options="-parameters" />
+      <module name="mall-manager-service" options="-parameters" />
+      <module name="mall-marketing-interface" options="-parameters" />
+      <module name="mall-marketing-mapper" options="-parameters" />
+      <module name="mall-marketing-pojo" options="-parameters" />
+      <module name="mall-marketing-service" options="-parameters" />
     </option>
   </component>
 </project>
