@@ -24,8 +24,8 @@
 <!--        <module>mall-search</module>-->
 <!--        <module>mall-sso</module>-->
         <module>mall-cart</module>
-<!--        <module>mall-order</module>-->
-<!--        <module>mall-portal</module>-->
+        <module>mall-order</module>
+        <module>mall-portal</module>
 <!--        <module>mall-security</module>-->
         <module>mall-marketing</module>
     </modules>

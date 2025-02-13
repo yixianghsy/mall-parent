@@ -6,26 +6,32 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="mall-content-mapper" />
         <module name="mall-content-interface" />
-        <module name="mall-item-service" />
-        <module name="mall-content-pojo" />
         <module name="mall-manager-controller" />
         <module name="mall-manager-mapper" />
+        <module name="mall-order-controller" />
         <module name="mall-item-controller" />
+        <module name="mall-order-pojo" />
         <module name="mall-item-mapper" />
         <module name="mall-cart-controller" />
         <module name="mall-cart-service" />
         <module name="mall-manager-pojo" />
-        <module name="mall-manager-service" />
-        <module name="mall-marketing-pojo" />
-        <module name="mall-marketing-service" />
         <module name="mall-marketing-interface" />
-        <module name="mall-cart-interface" />
         <module name="mall-item-interface" />
         <module name="mall-content-servic" />
+        <module name="mall-content-mapper" />
+        <module name="mall-item-service" />
+        <module name="mall-order-mapper" />
+        <module name="mall-order-service" />
+        <module name="mall-content-pojo" />
+        <module name="mall-manager-service" />
+        <module name="mall-marketing-pojo" />
+        <module name="mall-order-interface" />
+        <module name="mall-marketing-service" />
+        <module name="mall-cart-interface" />
         <module name="mall-marketing-mapper" />
         <module name="mall-manager-interface" />
+        <module name="mall-portal" />
       </profile>
     </annotationProcessing>
   </component>
@@ -51,6 +57,12 @@
       <module name="mall-marketing-mapper" options="-parameters" />
       <module name="mall-marketing-pojo" options="-parameters" />
       <module name="mall-marketing-service" options="-parameters" />
+      <module name="mall-order-controller" options="-parameters" />
+      <module name="mall-order-interface" options="-parameters" />
+      <module name="mall-order-mapper" options="-parameters" />
+      <module name="mall-order-pojo" options="-parameters" />
+      <module name="mall-order-service" options="-parameters" />
+      <module name="mall-portal" options="-parameters" />
     </option>
   </component>
 </project>
